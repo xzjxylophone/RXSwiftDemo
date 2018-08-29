@@ -1,24 +1,21 @@
 //
-//  RXTestProtocolViewController.swift
+//  RXTemplateTestViewController.swift
 //  RXSwiftDemo
 //
-//  Created by Rush.D.Xzj on 2018/8/27.
+//  Created by Rush.D.Xzj on 2018/8/28.
 //  Copyright © 2018 TAL. All rights reserved.
 //
 
 import UIKit
 
-class RXTestProtocolViewController: UIViewController {
+class RXTemplateTestViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let obj = RXTestProtocolObject()
-        obj.test()
-        obj.testInExtension()
-        obj.testImpByExtension()
-        obj.testImpByExtensionAndObject()
-        self.view.backgroundColor = UIColor.white
+        let obj1: RXTemplateTestObject = RXTemplateTestObject<Int>(1)
+        let obj2: RXTemplateTestObject = RXTemplateTestObject<String>("abc")
+        NSLog("obj1:%zd, obj2:%@", obj1.value, obj2.value)
     }
 
     override func didReceiveMemoryWarning() {

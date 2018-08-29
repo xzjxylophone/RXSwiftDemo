@@ -7,6 +7,9 @@
 //
 
 import UIKit
+// self的研究
+// https://www.jianshu.com/p/735f043449fa
+// https://www.jianshu.com/p/5059d2993509
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

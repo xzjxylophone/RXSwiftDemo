@@ -29,13 +29,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         self.tableView.delegate = self
         self.tableView.dataSource = self
         self.tableView.register(type(of: UITableViewCell()), forCellReuseIdentifier: "aaaa")
-        
         self.view.addSubview(self.tableView)
-        
         self.autoGoToVC()
-        
-        
-        
     }
 
     override func didReceiveMemoryWarning() {
@@ -63,7 +58,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     // MARK : Private
     func resetData() {
-        self.itemArray = ["RXKingfisherTest", "RXTestProtocol"]
+        self.itemArray = ["RXKingfisherTest", "RXTestProtocol", "RXTemplateTest"]
         
         // 倒序
         self.itemArray = self.itemArray.reversed() as NSArray

@@ -20,6 +20,10 @@
 		E858B1592134097400451B69 /* RXTestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E858B1582134097400451B69 /* RXTestProtocol.swift */; };
 		E858B15B2134123E00451B69 /* RXTestProtocolObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E858B15A2134123E00451B69 /* RXTestProtocolObject.swift */; };
 		E858B15D2134159700451B69 /* RXTestProtocolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E858B15C2134159700451B69 /* RXTestProtocolViewController.swift */; };
+		E858B1602134216600451B69 /* RXATTestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E858B15F2134216600451B69 /* RXATTestProtocol.swift */; };
+		E858B162213421B500451B69 /* RXATTestProtocolObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E858B161213421B500451B69 /* RXATTestProtocolObject.swift */; };
+		E858B1652135496A00451B69 /* RXTemplateTestObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E858B1642135496900451B69 /* RXTemplateTestObject.swift */; };
+		E858B167213572F400451B69 /* RXTemplateTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E858B166213572F400451B69 /* RXTemplateTestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +44,10 @@
 		E858B1582134097400451B69 /* RXTestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXTestProtocol.swift; sourceTree = "<group>"; };
 		E858B15A2134123E00451B69 /* RXTestProtocolObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXTestProtocolObject.swift; sourceTree = "<group>"; };
 		E858B15C2134159700451B69 /* RXTestProtocolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXTestProtocolViewController.swift; sourceTree = "<group>"; };
+		E858B15F2134216600451B69 /* RXATTestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXATTestProtocol.swift; sourceTree = "<group>"; };
+		E858B161213421B500451B69 /* RXATTestProtocolObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXATTestProtocolObject.swift; sourceTree = "<group>"; };
+		E858B1642135496900451B69 /* RXTemplateTestObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXTemplateTestObject.swift; sourceTree = "<group>"; };
+		E858B166213572F400451B69 /* RXTemplateTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXTemplateTestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +173,8 @@
 		E858B1542133D7AF00451B69 /* Kingfisher */ = {
 			isa = PBXGroup;
 			children = (
+				E858B1632135494600451B69 /* Template */,
+				E858B15E21341F7400451B69 /* AssociateType */,
 				E858B1572134094A00451B69 /* Protocol */,
 				E858B1552133D7CC00451B69 /* RXKingfisherTestViewController.swift */,
 			);
@@ -179,6 +189,24 @@
 				E858B15C2134159700451B69 /* RXTestProtocolViewController.swift */,
 			);
 			path = Protocol;
+			sourceTree = "<group>";
+		};
+		E858B15E21341F7400451B69 /* AssociateType */ = {
+			isa = PBXGroup;
+			children = (
+				E858B15F2134216600451B69 /* RXATTestProtocol.swift */,
+				E858B161213421B500451B69 /* RXATTestProtocolObject.swift */,
+			);
+			path = AssociateType;
+			sourceTree = "<group>";
+		};
+		E858B1632135494600451B69 /* Template */ = {
+			isa = PBXGroup;
+			children = (
+				E858B1642135496900451B69 /* RXTemplateTestObject.swift */,
+				E858B166213572F400451B69 /* RXTemplateTestViewController.swift */,
+			);
+			path = Template;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,13 +340,17 @@
 			files = (
 				E858B15B2134123E00451B69 /* RXTestProtocolObject.swift in Sources */,
 				E858B138212FE8CA00451B69 /* ViewController.swift in Sources */,
+				E858B162213421B500451B69 /* RXATTestProtocolObject.swift in Sources */,
+				E858B167213572F400451B69 /* RXTemplateTestViewController.swift in Sources */,
 				E858B14C21300E0300451B69 /* RXArraySetDictonaryViewController.swift in Sources */,
 				E858B1562133D7CC00451B69 /* RXKingfisherTestViewController.swift in Sources */,
+				E858B1602134216600451B69 /* RXATTestProtocol.swift in Sources */,
 				E858B1502130124F00451B69 /* TALDefine.swift in Sources */,
 				E858B136212FE8CA00451B69 /* AppDelegate.swift in Sources */,
 				E858B152213012E700451B69 /* TALUIViewExtension.swift in Sources */,
 				E858B1592134097400451B69 /* RXTestProtocol.swift in Sources */,
 				E858B15D2134159700451B69 /* RXTestProtocolViewController.swift in Sources */,
+				E858B1652135496A00451B69 /* RXTemplateTestObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
