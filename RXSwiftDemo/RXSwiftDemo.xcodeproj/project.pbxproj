@@ -221,7 +221,6 @@
 				E858B12F212FE8CA00451B69 /* Frameworks */,
 				E858B130212FE8CA00451B69 /* Resources */,
 				94D4764A5FE068AA439B471E /* [CP] Embed Pods Frameworks */,
-				8C3D11AF5CE7637983AA25EC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -280,21 +279,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8C3D11AF5CE7637983AA25EC /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RXSwiftDemo/Pods-RXSwiftDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		94D4764A5FE068AA439B471E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
