@@ -20,23 +20,23 @@ public protocol RXTestProtocol {
 
 public extension RXTestProtocol {
     // 在protocol的extension中,函数需要有实现
-    public func testInExtension() {
+    func testInExtension() {
         NSLog("testInExtension, value:%@", self.value)
         NSLog("testInExtension, valueImpByExtension:%@", self.valueImpByExtension)
         NSLog("testInExtension, valueImpByExtensionAndObject:%@", self.valueImpByExtensionAndObject)
     }
     
-    public var valueImpByExtension: String {
+    var valueImpByExtension: String {
         return "valueImpByExtension"
     }
-    public var valueImpByExtensionAndObject: String {
+    var valueImpByExtensionAndObject: String {
         return "valueImpByExtensionAndObject"
     }
     
-    public func testImpByExtension() {
+    func testImpByExtension() {
         NSLog("testImpByExtension:%@", self.valueImpByExtension)
     }
-    public func testImpByExtensionAndObject() {
+    func testImpByExtensionAndObject() {
         NSLog("testImpByExtensionAndObject:%@", self.valueImpByExtensionAndObject)
     }
 }

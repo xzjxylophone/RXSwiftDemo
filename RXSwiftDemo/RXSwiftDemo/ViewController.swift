@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    let tableView: UITableView = UITableView(frame: CGRect.zero, style: UITableViewStyle.plain)
+    let tableView: UITableView = UITableView(frame: CGRect.zero, style: UITableView.Style.plain)
     
     
     var itemArray: NSArray = NSMutableArray()
@@ -59,7 +59,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     // MARK : Private
     func resetData() {
-        self.itemArray = ["RXKingfisherTest", "RXTestProtocol", "RXTemplateTest"]
+        self.itemArray = ["RXKingfisherTest", "RXTestProtocol", "RXTemplateTest",
+                            "RXSingleton"]
         
         // 倒序
         self.itemArray = self.itemArray.reversed() as NSArray
