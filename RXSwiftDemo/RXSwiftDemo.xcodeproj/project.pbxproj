@@ -12,11 +12,11 @@
 		588AB1A12282D210003D13B2 /* RXConvertTestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588AB1A02282D210003D13B2 /* RXConvertTestManager.swift */; };
 		588AB1A32282D327003D13B2 /* RXJSONConvertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588AB1A22282D327003D13B2 /* RXJSONConvertManager.swift */; };
 		8D71B2DA234DBEBE006B31FF /* RXAlgorithmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D71B2D9234DBEBE006B31FF /* RXAlgorithmViewController.swift */; };
-		8D71B2DE234DCFC6006B31FF /* LCTwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D71B2DD234DCFC6006B31FF /* LCTwoSum.swift */; };
-		8D71B2E0234DD3E4006B31FF /* LCAddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D71B2DF234DD3E4006B31FF /* LCAddTwoNumbers.swift */; };
-		8D71B2E2234DD42C006B31FF /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D71B2E1234DD42C006B31FF /* ListNode.swift */; };
 		8D71B9FB234F1952006B31FF /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D71B9F8234F1952006B31FF /* TwoSum.swift */; };
 		8D71B9FC234F1952006B31FF /* AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D71B9FA234F1952006B31FF /* AddTwoNumbers.swift */; };
+		8D71BA01234F2A6E006B31FF /* LCTwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D71B9FE234F2A6D006B31FF /* LCTwoSum.swift */; };
+		8D71BA02234F2A6E006B31FF /* LCAddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D71BA00234F2A6D006B31FF /* LCAddTwoNumbers.swift */; };
+		8D71BA05234F2A86006B31FF /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D71BA04234F2A85006B31FF /* ListNode.swift */; };
 		C70E17BA5035336352A49535 /* Pods_RXSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A639EF81477FCAFFEC9B2A4D /* Pods_RXSwiftDemo.framework */; };
 		E858B136212FE8CA00451B69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E858B135212FE8CA00451B69 /* AppDelegate.swift */; };
 		E858B138212FE8CA00451B69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E858B137212FE8CA00451B69 /* ViewController.swift */; };
@@ -43,11 +43,11 @@
 		588AB1A02282D210003D13B2 /* RXConvertTestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXConvertTestManager.swift; sourceTree = "<group>"; };
 		588AB1A22282D327003D13B2 /* RXJSONConvertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXJSONConvertManager.swift; sourceTree = "<group>"; };
 		8D71B2D9234DBEBE006B31FF /* RXAlgorithmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXAlgorithmViewController.swift; sourceTree = "<group>"; };
-		8D71B2DD234DCFC6006B31FF /* LCTwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCTwoSum.swift; sourceTree = "<group>"; };
-		8D71B2DF234DD3E4006B31FF /* LCAddTwoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCAddTwoNumbers.swift; sourceTree = "<group>"; };
-		8D71B2E1234DD42C006B31FF /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		8D71B9F8234F1952006B31FF /* TwoSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		8D71B9FA234F1952006B31FF /* AddTwoNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTwoNumbers.swift; sourceTree = "<group>"; };
+		8D71B9FE234F2A6D006B31FF /* LCTwoSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCTwoSum.swift; sourceTree = "<group>"; };
+		8D71BA00234F2A6D006B31FF /* LCAddTwoNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCAddTwoNumbers.swift; sourceTree = "<group>"; };
+		8D71BA04234F2A85006B31FF /* ListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		A639EF81477FCAFFEC9B2A4D /* Pods_RXSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RXSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A96AC26BA02C653B3F1080BE /* Pods-RXSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXSwiftDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RXSwiftDemo/Pods-RXSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		E858B132212FE8CA00451B69 /* RXSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RXSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,9 +121,9 @@
 		8D71B2D8234DBDF3006B31FF /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
-				8D71B2DD234DCFC6006B31FF /* LCTwoSum.swift */,
-				8D71B2DF234DD3E4006B31FF /* LCAddTwoNumbers.swift */,
-				8D71B2E1234DD42C006B31FF /* ListNode.swift */,
+				8D71BA03234F2A85006B31FF /* Base */,
+				8D71B9FD234F2A6D006B31FF /* Array */,
+				8D71B9FF234F2A6D006B31FF /* Math */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -151,6 +151,30 @@
 				8D71B9FA234F1952006B31FF /* AddTwoNumbers.swift */,
 			);
 			path = Math;
+			sourceTree = "<group>";
+		};
+		8D71B9FD234F2A6D006B31FF /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				8D71B9FE234F2A6D006B31FF /* LCTwoSum.swift */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		8D71B9FF234F2A6D006B31FF /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				8D71BA00234F2A6D006B31FF /* LCAddTwoNumbers.swift */,
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
+		8D71BA03234F2A85006B31FF /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8D71BA04234F2A85006B31FF /* ListNode.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		E858B129212FE8CA00451B69 = {
@@ -404,20 +428,20 @@
 				8D71B9FB234F1952006B31FF /* TwoSum.swift in Sources */,
 				E858B15B2134123E00451B69 /* RXTestProtocolObject.swift in Sources */,
 				E858B138212FE8CA00451B69 /* ViewController.swift in Sources */,
-				8D71B2E0234DD3E4006B31FF /* LCAddTwoNumbers.swift in Sources */,
 				8D71B2DA234DBEBE006B31FF /* RXAlgorithmViewController.swift in Sources */,
+				8D71BA02234F2A6E006B31FF /* LCAddTwoNumbers.swift in Sources */,
 				E858B162213421B500451B69 /* RXATTestProtocolObject.swift in Sources */,
 				E858B167213572F400451B69 /* RXTemplateTestViewController.swift in Sources */,
 				588AB1A32282D327003D13B2 /* RXJSONConvertManager.swift in Sources */,
-				8D71B2DE234DCFC6006B31FF /* LCTwoSum.swift in Sources */,
 				5826B94B2253010A0020C47C /* RXTestView.swift in Sources */,
 				E858B14C21300E0300451B69 /* RXArraySetDictonaryViewController.swift in Sources */,
 				588AB19E2282D051003D13B2 /* RXSingletonViewController.swift in Sources */,
 				E858B1562133D7CC00451B69 /* RXKingfisherTestViewController.swift in Sources */,
 				E858B1602134216600451B69 /* RXATTestProtocol.swift in Sources */,
+				8D71BA05234F2A86006B31FF /* ListNode.swift in Sources */,
 				8D71B9FC234F1952006B31FF /* AddTwoNumbers.swift in Sources */,
 				588AB1A12282D210003D13B2 /* RXConvertTestManager.swift in Sources */,
-				8D71B2E2234DD42C006B31FF /* ListNode.swift in Sources */,
+				8D71BA01234F2A6E006B31FF /* LCTwoSum.swift in Sources */,
 				E858B1502130124F00451B69 /* TALDefine.swift in Sources */,
 				E858B136212FE8CA00451B69 /* AppDelegate.swift in Sources */,
 				E858B152213012E700451B69 /* TALUIViewExtension.swift in Sources */,

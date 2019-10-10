@@ -14,8 +14,8 @@ class RXAlgorithmViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-//        LCTwoSum.test()
-        LCAddTwoNumbers.test()
+        LCTwoSum.test()
+//        LCAddTwoNumbers.test()
     }
     
 

@@ -46,7 +46,8 @@ class LCTwoSum: NSObject {
             if let nextIndex = dict[target - num] {
                 // 同一个索引不能重复使用
                 if nextIndex != i {
-                    return [i, nextIndex];
+                    return [i, nextIndex]
+                    // 或者: return [min(i, nextIndex), max(i, nextIndex)]
                 }
             }
         }
@@ -54,15 +55,27 @@ class LCTwoSum: NSObject {
     }
     
     // 一遍hash
+    func o_N2(_ nums: [Int], _ target: Int) -> [Int] {
+        var dict = [Int: Int]()
+        for (i, num) in nums.enumerated() {
+            if let lastIndex = dict[target - num] {
+                return [lastIndex, i]
+            }
+            if !dict.keys.contains(num) {
+                dict[num] = i
+            }
+        }
+        fatalError("No valid outputs")
+    }
+    
+    
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
         var dict = [Int: Int]()
         for (i, num) in nums.enumerated() {
             if let lastIndex = dict[target - num] {
                 return [lastIndex, i];
             }
-            if !dict.keys.contains(num) {
-                dict[num] = i
-            }
+            dict[num] = i
         }
         fatalError("No valid outputs")
     }
