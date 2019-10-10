@@ -51,7 +51,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let identifier = "aaaa"
         let cell: UITableViewCell! = tableView.dequeueReusableCell(withIdentifier: identifier, for: indexPath) as UITableViewCell
-        NSLog("cell:%@", cell)
+//        NSLog("cell:%@", cell)
         let text: String = self.itemArray[indexPath.row] as! String
         cell.textLabel?.text = text
         return cell
@@ -60,8 +60,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     // MARK : Private
     func resetData() {
         self.itemArray = ["RXKingfisherTest", "RXTestProtocol", "RXTemplateTest",
-                            "RXSingleton"]
-        
+                            "RXSingleton", "RXAlgorithm"]
         // 倒序
         self.itemArray = self.itemArray.reversed() as NSArray
     }
