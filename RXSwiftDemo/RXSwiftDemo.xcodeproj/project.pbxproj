@@ -17,6 +17,8 @@
 		8D71BA01234F2A6E006B31FF /* LCTwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D71B9FE234F2A6D006B31FF /* LCTwoSum.swift */; };
 		8D71BA02234F2A6E006B31FF /* LCAddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D71BA00234F2A6D006B31FF /* LCAddTwoNumbers.swift */; };
 		8D71BA05234F2A86006B31FF /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D71BA04234F2A85006B31FF /* ListNode.swift */; };
+		8D71BA08234F2B1B006B31FF /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D71BA07234F2B1B006B31FF /* LongestSubstringWithoutRepeatingCharacters.swift */; };
+		8D71BA0B234F2B48006B31FF /* LCLongestSubstringWithoutRepeatingCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D71BA0A234F2B48006B31FF /* LCLongestSubstringWithoutRepeatingCharacters.swift */; };
 		C70E17BA5035336352A49535 /* Pods_RXSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A639EF81477FCAFFEC9B2A4D /* Pods_RXSwiftDemo.framework */; };
 		E858B136212FE8CA00451B69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E858B135212FE8CA00451B69 /* AppDelegate.swift */; };
 		E858B138212FE8CA00451B69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E858B137212FE8CA00451B69 /* ViewController.swift */; };
@@ -48,6 +50,8 @@
 		8D71B9FE234F2A6D006B31FF /* LCTwoSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCTwoSum.swift; sourceTree = "<group>"; };
 		8D71BA00234F2A6D006B31FF /* LCAddTwoNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCAddTwoNumbers.swift; sourceTree = "<group>"; };
 		8D71BA04234F2A85006B31FF /* ListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
+		8D71BA07234F2B1B006B31FF /* LongestSubstringWithoutRepeatingCharacters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LongestSubstringWithoutRepeatingCharacters.swift; sourceTree = "<group>"; };
+		8D71BA0A234F2B48006B31FF /* LCLongestSubstringWithoutRepeatingCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCLongestSubstringWithoutRepeatingCharacters.swift; sourceTree = "<group>"; };
 		A639EF81477FCAFFEC9B2A4D /* Pods_RXSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RXSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A96AC26BA02C653B3F1080BE /* Pods-RXSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXSwiftDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RXSwiftDemo/Pods-RXSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		E858B132212FE8CA00451B69 /* RXSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RXSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,6 +125,7 @@
 		8D71B2D8234DBDF3006B31FF /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				8D71BA09234F2B21006B31FF /* String */,
 				8D71BA03234F2A85006B31FF /* Base */,
 				8D71B9FD234F2A6D006B31FF /* Array */,
 				8D71B9FF234F2A6D006B31FF /* Math */,
@@ -131,6 +136,7 @@
 		8D71B7AF234F138E006B31FF /* LeetCode_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				8D71BA06234F2B1B006B31FF /* String */,
 				8D71B9F7234F1952006B31FF /* Array */,
 				8D71B9F9234F1952006B31FF /* Math */,
 			);
@@ -175,6 +181,22 @@
 				8D71BA04234F2A85006B31FF /* ListNode.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		8D71BA06234F2B1B006B31FF /* String */ = {
+			isa = PBXGroup;
+			children = (
+				8D71BA07234F2B1B006B31FF /* LongestSubstringWithoutRepeatingCharacters.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		8D71BA09234F2B21006B31FF /* String */ = {
+			isa = PBXGroup;
+			children = (
+				8D71BA0A234F2B48006B31FF /* LCLongestSubstringWithoutRepeatingCharacters.swift */,
+			);
+			path = String;
 			sourceTree = "<group>";
 		};
 		E858B129212FE8CA00451B69 = {
@@ -444,9 +466,11 @@
 				8D71BA01234F2A6E006B31FF /* LCTwoSum.swift in Sources */,
 				E858B1502130124F00451B69 /* TALDefine.swift in Sources */,
 				E858B136212FE8CA00451B69 /* AppDelegate.swift in Sources */,
+				8D71BA08234F2B1B006B31FF /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */,
 				E858B152213012E700451B69 /* TALUIViewExtension.swift in Sources */,
 				E858B1592134097400451B69 /* RXTestProtocol.swift in Sources */,
 				E858B15D2134159700451B69 /* RXTestProtocolViewController.swift in Sources */,
+				8D71BA0B234F2B48006B31FF /* LCLongestSubstringWithoutRepeatingCharacters.swift in Sources */,
 				E858B1652135496A00451B69 /* RXTemplateTestObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
